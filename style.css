@@ -1,0 +1,131 @@
+/* parent-class-div */
+div.parent-class-div {
+    width: 450px;
+    height: 590px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* for bars icon  */
+div.nav-bar {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+/* for Home paragraph */
+div.nav-bar span#home {
+    margin-left: 150px;
+}
+
+/* for lock icon */
+div.parent-class-div i#lock {
+    margin-left: 45%;
+}
+
+/* for search-icon-input */
+div.search-icon {
+    width: 80%;
+    margin-left: 15px;
+    display: flex;
+    box-shadow: 0 0 1px rgb(111, 110, 110);
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 2%;
+} 
+
+/* right-bar */
+div.search-icon i#right-bar {
+    margin-left: 53%;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+}
+
+/* for input */
+div.search-icon input {
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+}
+
+/* for icon inside the input */
+div.search-icon i#icon-bar {
+    color: rgb(123, 123, 123);
+    margin-left: 5px;
+    margin-top: 5px;  
+}
+
+/* nav-bars */
+div.nav-bars {
+    display: flex;
+}
+
+/* for txts */
+div.nav-bars p.text-bar {
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+/* paragarph for bold */
+div.nav-bars p#text-bold {
+    font-weight: bold;
+}
+
+/* Burger Image */
+div.Burger-image img{
+    width: 92.5%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* card */
+div.parent-class-div div#main-card {
+    width: 40%;
+    height: 39%;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div#main-card i {
+    margin-top: 5px;
+}
+
+div#main-card div.card-img img {
+    width: 90px;
+    height: 90px;
+    margin-left: 40px;
+}
+
+div#main-card div.stars {
+    border: 1px solid black;
+    margin-left: 8px;
+}
+
+.filled {
+    color: gold;
+}
+
+div#main-card div.para {
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+div#main-card div.amount {
+    margin-left: 8px;
+}
+
+#main-card #herts {
+display: flex;
+justify-content: flex-end;
+}
+
+#main-card{
+    padding: 8px;
+}
+
+#section-card{
+    display: flex;
+}
